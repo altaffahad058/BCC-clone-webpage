@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BBC Webpage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- ****************************navbar********************************* -->
+    <div class="navbar-container bg-white sticky top-0 w-full z-10">
+      <nav class="py-4 px-5 flex justify-start md:justify-between lg:justify-between items-center border-b-2">
+        <div class="nav-btn">
+          <i class="py-1 px-3 fa-solid fa-bars fa-xl hover:cursor-pointer"></i>
+          <i class="py-1 px-3 fa-solid fa-magnifying-glass fa-xl hover:cursor-pointer"></i>
+        </div>
+        <div class="log-container">
+          <ul class="flex justify-center items-center font-bold pl-10">
+            <li class="mr-1 px-2 text-2xl bg-black text-white">B</li>
+            <li class="mr-1 px-2 text-2xl bg-black text-white">B</li>
+            <li class="mr-1 px-2 text-2xl bg-black text-white">C</li>
+          </ul>
+        </div>
+        <div class="user-btns hidden md:block lg:block">
+          <button class="px-3 py-1 font-bold bg-black text-white">Register</button>
+          <button class="px-3 py-1 font-bold hover:bg-black hover:text-white">Sign In</button>
+        </div>
+      </nav>
+      <div class="navbar2-container relative top-0 z-10 hidden md:hidden lg:block ">
+        <nav class="border-b-2">
+          <ul class="flex justify-center items-center  font-semibold">
+            <li class="px-2 py-2 border-b-4 border-black hover:border-gray-300 hover:bg-gray-300 hover:cursor-pointer">Home</li>
+            <li class="px-2 py-2 border-b-4 border-white hover:border-gray-300 hover:bg-gray-300 hover:cursor-pointer">News</li>
+            <li class="px-2 py-2 border-b-4 border-white hover:border-gray-300 hover:bg-gray-300 hover:cursor-pointer">Sports</li>
+            <li class="px-2 py-2 border-b-4 border-white hover:border-gray-300 hover:bg-gray-300 hover:cursor-pointer">Buisness</li>
+            <li class="px-2 py-2 border-b-4 border-white hover:border-gray-300 hover:bg-gray-300 hover:cursor-pointer">Innovation</li>
+            <li class="px-2 py-2 border-b-4 border-white hover:border-gray-300 hover:bg-gray-300 hover:cursor-pointer">Culture</li>
+            <li class="px-2 py-2 border-b-4 border-white hover:border-gray-300 hover:bg-gray-300 hover:cursor-pointer">Travel</li>
+            <li class="px-2 py-2 border-b-4 border-white hover:border-gray-300 hover:bg-gray-300 hover:cursor-pointer">Earth</li>
+            <li class="px-2 py-2 border-b-4 border-white hover:border-gray-300 hover:bg-gray-300 hover:cursor-pointer">Video</li>
+            <li class="px-2 py-2 border-b-4 border-white hover:border-gray-300 hover:bg-gray-300 hover:cursor-pointer">Live</li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- ****************************news-section-1******************************** -->
+    <div class="news-grid-container md:px-2 lg:px-10 py-5 ">
+        <div class="grid grid-col-2 gap-4 md:grid-col-4 md:gap-0 lg:grid-cols-4 lg:gap-4">
+            <div class="flex flex-col col-span-2 pb-10 md:pb-5 md:row-start-1 md:col-start-1 md:col-span-1 lg:pb-0 lg:col-span-1">
+                <div class="news1-container px-2 lg:px-0 pb-5 md:pb-2">
+                    <div class="grid grid-col-2 border-b-2 md:border-b-0 lg:border-b-0 lg:grid-cols-1 lg:grid-row-2 gap-4">
+                        <div class="col-start-1 md:flex md:flex-col md:gap-2 lg:flex lg:flex-col lg:gap-2">
+                            <img src="/taks-imgs/1st new-sec-img1.webp" alt="news-sec-img1">
+                        </div>
+                        <div class="flex flex-col col-start-2 gap-2 md:col-start-1 md:row-start-2 lg:col-start-1 lg:row-start-2"> 
+                            <div>
+                                <p class="font-serif text-sm hover:underline hover:cursor-pointer md:text-base md:font-bold md:leading-tight lg:text-base lg:font-bold">Fifth body found in Sicily yacht brought ashore as one person still missing</p>
+                            </div>
+                            <div class="font-serif hidden md:block md:leading-tight lg:block">
+                                <p>The unannounced speech by the TV host hit back at Republican criticism of "childless cat ladies".</p>
+                            </div>
+                            <div class="text-xs md:border-b-0 lg:border-b-2 py-2 text-gray-500">
+                                <p>2 hrs ago | World</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="news2-container px-2 lg:px-0">
+                    <div class="grid grid-col-2 border-b-2 md:border-b-0 lg:border-b-0 lg:grid-cols-1 lg:grid-row-2 gap-4">
+                        <div class="col-start-1 md:flex md:flex-col md:gap-2 lg:flex lg:flex-col lg:gap-2">
+                            <img src="/taks-imgs/1st new-sec-img2.webp" alt="news-sec-img1">
+                        </div>
+                        <div class="flex flex-col col-start-2 gap-2 md:col-start-1 md:row-start-2 lg:col-start-1 lg:row-start-2">
+                            <div>
+                                <p class="font-serif text-sm hover:underline hover:cursor-pointer md:text-base md:font-bold md:leading-tight lg:text-base lg:font-bold">Fifth body found in Sicily yacht brought ashore as one person still missing</p>
+                            </div>
+                            <div class="font-serif hidden md:block md:leading-tight lg:block">
+                                <p>The search is resuming for one person who's still missing after a luxury yacht sank in a storm off the coast of Sicily on Monday.</p>
+                            </div>
+                            <div class="text-xs md:border-b-0 lg:border-b-2 py-2 text-gray-500">
+                                <p>2 hrs ago | World</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col row-start-1 col-span-2 px-2 md:col-start-2 md:col-span-3 lg:px-0 lg:col-start-2 lg:col-span-2">
+                <div class="news3-container pb-5 lg:pb-0">
+                    <div class="grid grid-cols-1 grid-row-3 gap-2">
+                        <div class="flex flex-col gap-1">
+                            <img class="w-30 h-auto" src="/taks-imgs/1st new-sec-img3.webp" alt="news-sec-img1">
+                            <p class="font-serif text-2xl font-bold hover:underline hover:cursor-pointer">Tim Walz accepts VP nomination, telling Democrats 'we're not going back'</p>
+                        </div>
+                        <div class="pb-2 lg:pb-10 font-serif">
+                            <p>Kamala Harris's nominee for vice-president issues a rallying cry before November's election, urging campaigning Democrats "to leave it all on the field".</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-list pb-10 md:pb-0 lg:pb-0">
+                    <ul class="list-disc list-inside leading-10 px-2 font-serif font-semibold">
+                        <li class="hover:underline hover:cursor-pointer">Fact-checking claims about Tim Walz’s military record</li>
+                        <li class="hover:underline hover:cursor-pointer">Three things the Democrats have avoided so far at DNC</li>
+                        <li class="hover:underline hover:cursor-pointer">Six Kamala Harris claims fact-checked</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex flex-col col-span-2 px-2 md:col-span-4 md:px-0 md:grid lg:px-0 lg:col-span-1">
+                <div class="md:grid md:grid-cols-2 md:gap-4 lg:flex lg:flex-col">
+                    <div class="side-news1-container py-1 md:py-0 pb-2 border-b-2 flex flex-col gap-1 lg:gap-2 md:leading-tight md:border-b-0 md:col-span-1 lg:border-b-2">
+                        <p class="font-serif font-bold hover:underline hover:cursor-pointer">‘I never worked for the Russians’ - punished by Kyiv for being a collaborator</p>
+                        <p class="py-1 font-serif">Almost 2,000 people have been convicted of collaborating with Russia under a new Ukrainian law.</p>
+                        <p class="text-xs py-2 text-gray-500">3 hrs ago | Europe</p>
+                    </div>
+                    <div class="side-news2-container py-1 md:py-0 pb-2 border-b-2 flex flex-col gap-1 lg:gap-2 md:leading-tight md:border-b-0 lg:border-b-2">
+                        <p class="  font-serif font-bold hover:underline hover:cursor-pointer">Taylor Swift says she felt ‘fear’ over Vienna attack threat</p>
+                        <p class="  py-1 font-serif">The US pop star cancelled three concerts in Austria after an alleged suicide attack plot was uncovered.</p>
+                        <p class="  text-xs py-2 text-gray-500">7 hrs ago | London</p>
+                    </div>
+                    <div class="side-news3-container py-1 pb-2 border-b-2 flex flex-col gap-1 lg:gap-2 md:leading-tight md:border-b-0 lg:border-b-2">
+                        <p class="  font-serif font-bold hover:underline hover:cursor-pointer">Watch: Trump speaks behind bullet-proof glass at rally</p>
+                        <p class="  py-1 font-serif">Trump was in North Carolina, at his first outdoor rally since an attempted assassination.</p>
+                        <p class="  text-xs py-2 text-gray-500">7 hrs ago | US & Canada</p>
+                    </div>
+                    <div class="side-news4-container py-1 pb-2 border-b-0 flex flex-col gap-1 lg:gap-2 md:leading-tight md:border-b-0 lg:border-b-2">
+                        <p class="  font-serif font-bold hover:underline hover:cursor-pointer">Hezbollah rockets hit Golan Heights after Israel strikes deep in Lebanon</p>
+                        <p class="  py-1 font-serif">Fears are growing that the cross-border hostilities could escalate into an all-out war.</p>
+                        <p class="  text-xs py-2 text-gray-500">11 hrs ago | Middle East</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ****************************news-section-2********************************* -->
+    <div class="break-line px-2 md:px-2 lg:px-10 pt-10 pb-3">
+        <hr class="border-b-2 border-black">
+    </div> 
+    <div class="news-container2 px-2 md:px-2 lg:px-10">
+        <p class="font-serif font-semibold text-lg pb-5">Only from the BBC</p>
+        <div class="flex flex-col md:flex-row lg:flex-row gap-4">
+            <div class="news1-container2 pb-5">
+                <div class="grid grid-cols-1 grid-row-3 gap-2">
+                    <div class="flex flex-col gap-2">
+                        <img src="/taks-imgs/2nd new-sec-img2.webp" alt="news-sec-img1">
+                        <p class="font-serif font-bold hover:underline hover:cursor-pointer">‘That little devil is filming’: Director’s time with the Taliban</p>
+                    </div>
+                    <div class="font-serif">
+                        <p>Ibrahim Nash’at succeeded in getting permission to film with the Taliban for a year.</p>
+                    </div>
+                    <div class="text-xs border-b-2 md:border-b-0 py-2 text-gray-500">
+                        <p>9 hrs ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="news2-container2 lg:pb-5">
+                <div class="grid grid-cols-1 grid-row-3 gap-2">
+                    <div class="flex flex-col gap-2">
+                        <img src="/taks-imgs/2nd new-sec-img1.webp" alt="news-sec-img1">
+                        <p class="font-serif font-bold hover:underline hover:cursor-pointer">Who benefits from Lesotho’s ‘white gold’?</p>
+                    </div>
+                    <div class="font-serif">
+                        <p>While Lesotho sells water to South Africa some near a huge dam have to use an unreliable spring.</p>
+                    </div>
+                    <div class="text-xs border-b-2 md:border-b-0 py-2 text-gray-500">
+                        <p>9 hrs ago | Africa</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="break-line px-2 md:px-2 lg:px-10 pt-10 pb-3">
+        <hr class="border-b-2 border-black">
+    </div>
+    <!-- ****************************news-section-3********************************** -->
+    <div class="news-container3 px-2 md:px-5 md:leading-tight lg:px-10">
+        <p class="font-serif font-semibold text-lg pb-5">More News <i class="fa-solid fa-angle-right fa-md"></i></p>
+        <div class="flex flex-col md:flex-row lg:flex-row gap-4">
+            <div class="md:flex md:flex-col md:gap-4 lg:flex lg:flex-col lg:gap-4">
+                <div class="news1-container3 pb-10 md:pb-0 lg:pb-0">
+                    <div class="grid grid-cols-1 md:grid-cols-3 md:gap-2 md:border-b-2 lg:grid-cols-3 lg:gap-2 lg:border-b-2">
+                        <div class="row-start-2 md:row-start-1 md:col-start-1 md:col-span-1 md:place-content-center lg:row-start-1 lg:col-start-1 lg:col-span-1 lg:place-content-center">
+                            <div class="flex flex-col">
+                                <div class="pb-2 md:pb-5 lg:pb-5 font-serif">
+                                    <p class="font-serif text-lg md:text-xl lg:text-2xl font-bold hover:underline cursor-pointer">Election law changes spark mass protests in Indonesia</p>
+                                </div>
+                                <div class="font-serif">
+                                    <p>The country's leaders want to reverse a constitutional court decision to open up elections to their rivals.</p>
+                                </div>
+                                <div class="text-xs py-2 border-b-2 md:border-b-0 lg:border-b-0 text-gray-500">
+                                    <p>3 hrs ago | Asia</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pb-2 md:pb-0 md:col-start-2 md:col-span-2 lg:pb-0 lg:col-start-2 lg:col-span-2">
+                            <img src="/taks-imgs/3rd new-sec-img1.webp" alt="news-sec-img1">
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-rows-2 md:grid-cols-2 lg:flex gap-4">
+                    <div class="news2-container3 pb-5">
+                        <div class="grid grid-cols-1 grid-row-3 gap-2">
+                            <div class="flex flex-col gap-2">
+                                <img src="/taks-imgs/3rd new-sec-img2.webp" alt="news-sec-img1">
+                                <p class="font-serif font-bold hover:underline cursor-pointer">Six-year-old boy found in Vietnam forest after five days</p>
+                            </div>
+                            <div class="font-serif">
+                                <p>Dang Tien Lam was found by locals who heard a child's cries while they were famring near the forest.</p>
+                            </div>
+                            <div class="text-xs border-b-2 py-2 text-gray-500">
+                                <p>4 hrs ago | Asia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news3-container3 pb-5">
+                        <div class="grid grid-cols-1 grid-row-3 gap-2">
+                            <div class="flex flex-col gap-2">
+                                <img src="/taks-imgs/3rd new-sec-img3.webp" alt="news-sec-img1">
+                                <p class="font-serif font-bold hover:underline cursor-pointer">US charges Chinese dissident with allegedly spying for Beijing</p>
+                            </div>
+                            <div class="font-serif">
+                                <p>Yuanjun Tang, now an American citizen, is alleged to have spied on US-based Chinese democracy activists.</p>
+                            </div>
+                            <div class="text-xs border-b-2 py-2 text-gray-500">
+                                <p>8 hrs ago | Asia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news4-container3 pb-5">
+                        <div class="grid grid-cols-1 grid-row-3 gap-2">
+                            <div class="flex flex-col gap-2">
+                                <img src="/taks-imgs/3rd new-sec-img4.webp" alt="news-sec-img1">
+                                <p class="font-serif font-bold hover:underline cursor-pointer">One half of world-famous gay penguin couple dies</p>
+                            </div>
+                            <div class="font-serif">
+                                <p>Sphen and his partner Magic shot to global stardom in 2018 when they fell in love at a Sydney aquarium.</p>
+                            </div>
+                            <div class="text-xs border-b-2 py-2 text-gray-500">
+                                <p>8 hrs ago | Australia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col">
+                <div class="side-news1-container border-b-2">
+                    <div class="grid grid-cols-1 grid-row-3 gap-2">
+                        <div class="flex flex-col gap-2">
+                            <img src="/taks-imgs/3rd new-sec-img5.webp" alt="news-sec-img1">
+                            <p class="font-serif text-md font-bold hover:underline cursor-pointer">LGBT Indians demand end to 'discriminatory' ban on blood donation</p>
+                        </div>
+                        <div class="font-serif">
+                            <p>Many countries have lifted bans on blood donations by LGBT people, but India hasn't yet.</p>
+                        </div>
+                        <div class="text-xs py-2 text-gray-500">
+                            <p>9 hrs ago | Asia</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="side-news2-container3 py-1 pt-2 pb-2 border-b-2">
+                    <p class="font-serif font-bold  hover:underline cursor-pointer">Starbucks new boss under fire for 1,000-mile commute</p>
+                    <p class="py-1 font-serif">Job offer which allows new CEO to commute to and from work on corporate jet sparked criticism.</p>
+                    <p class="text-xs py-2 text-gray-500">4 hrs ago | Buisness</p>
+                </div>
+                <div class="side-news3-container3 py-1 pt-2 pb-2">
+                    <p class="font-serif font-bold  hover:underline cursor-pointer">Andrew Tate held overnight after police raid homes in Romania</p>
+                    <p class="py-1 font-serif">The internet personality and his brother have been remanded in custody as part of a probe into new allegations.</p>
+                    <p class="text-xs py-2 text-gray-500">12 hrs ago | Europe</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ****************************news-section-4-videos********************************** -->
+    <div class="news-container4 bg-neutral-900 pb-10 px-2 md:px-2 lg:px-10">
+        <div class="break-line pt-5 pb-3">
+            <hr class="border-b-2 border-white">
+        </div>
+        <p class="font-sans font-semibold text-white text-lg pb-5">Must Watch</p>
+        <div class="video-grid grid grid-col-6 gap-4">
+            <div class="container4-left-btn col-start-1 col-span-1 pb-5 text-white place-content-center">
+                <i class="fa-solid fa-angle-left fa-2xl"></i>
+            </div>
+            <div class="news1-container4 col-start-2 col-span-1 pb-5 text-white leading-tight border-b-2 border-white">
+                <div class="grid grid-cols-1 grid-row-3 gap-2">
+                    <div class="flex flex-col gap-2">
+                        <img src="/taks-imgs/4th new-sec-img1.webp" alt="news-sec-img1">
+                        <p class="font-serif hover:underline hover:cursor-pointer">Watch: Key moments on DNC's final night in Chicago</p>
+                    </div>
+                    <div class="font-serif">
+                        <p>Kamala Harris's speech as the party's official nominee brought to an end the four-day gathering.</p>
+                    </div>
+                    <div class="text-xs md:border-b-0 py-2 text-gray-500">
+                        <p>9 hrs ago | US & Canada</p>
+                    </div>
+                </div>
+            </div>
+            <div class="news2-container4 hidden md:block lg:block col-start-3 col-span-1 pb-5 text-white leading-tight border-b-2 border-white">
+                <div class="grid grid-cols-1 grid-row-3 gap-2">
+                    <div class="flex flex-col gap-2">
+                        <img src="/taks-imgs/4th new-sec-img2.webp" alt="news-sec-img1">
+                        <p class="font-serif hover:underline hover:cursor-pointer">Would you eat a meal dreamed up by a computer?</p>
+                    </div>
+                    <div class="font-serif">
+                        <p>We delve into the world of food and ask if human culinary expertise is the only way to deliver great flavour.</p>
+                    </div>
+                    <div class="text-xs md:border-b-0 py-2 text-gray-500">
+                        <p>8 hrs ago | Innovation</p>
+                    </div>
+                </div>
+            </div>
+            <div class="news3-container4 hidden lg:block col-start-4 col-span-1 pb-5 text-white leading-tight border-b-2 border-white">
+                <div class="grid grid-cols-1 grid-row-3 gap-2">
+                    <div class="flex flex-col gap-2">
+                        <img src="/taks-imgs/4th new-sec-img3.webp" alt="news-sec-img1">
+                        <p class="font-serif hover:underline hover:cursor-pointer">The Paralympic table tennis love story</p>
+                    </div>
+                    <div class="font-serif">
+                        <p>Bonded by fate, thriving by purpose: Meet the power couple of African para table tennis.</p>
+                    </div>
+                    <div class="text-xs md:border-b-0 py-2 text-gray-500">
+                        <p>6 hrs ago | Africa</p>
+                    </div>
+                </div>
+            </div>
+            <div class="news4-container4 hidden lg:block col-start-5 col-span-1 pb-5 text-white leading-tight border-b-2 border-white">
+                <div class="grid grid-cols-1 grid-row-3 gap-2">
+                    <div class="flex flex-col gap-2">
+                        <img src="/taks-imgs/4th new-sec-img4.webp" alt="news-sec-img1">
+                        <p class="font-serif hover:underline hover:cursor-pointer">'I never thought someone like me could become Miss South Africa'</p>
+                    </div>
+                    <div class="font-serif">
+                        <p>Mia le Roux is the first deaf woman to be crowned Miss South Africa.</p>
+                    </div>
+                    <div class="text-xs border-b-2 md:border-b-0 py-2 text-gray-500">
+                        <p>21 hrs ago | Africa</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container4-right-btn col-start-3 md:col-start-4 lg:col-start-6 col-span-1 pb-5 text-white place-content-center">
+                <i class="fa-solid fa-angle-right fa-2xl"></i>
+            </div>
+        </div>
+    </div>
+    <!-- ****************************news-section-5********************************** -->
+    <div class="news-container5 px-2 md:px-5 lg:px-10 pt-5">
+        <p class="font-serif font-semibold text-lg pb-5">Travel <i class="fa-solid fa-angle-right fa-md"></i></p>
+        <div class="flex flex-col lg:grid lg:grid-col-4 gap-4">
+            <div class="lg:col-start-1 lg:col-span-3">
+                <img src="/taks-imgs/5th new-sec-img1.webp" alt="5th News Section Image">
+            </div>
+            <div class="lg:col-start-4 lg:col-span-1 lg:place-content-center">
+                <div class="flex flex-col justify-center gap-4 lg:gap-5">
+                    <div class="lg:pb-5 font-serif">
+                        <p class="font-serif text-2xl font-bold hover:underline hover:cursor-pointer">Europe's stunning high-tech luxury train ride</p>
+                    </div>
+                    <div class="font-serif">
+                        <p>Tracing a medieval trade route through the Swiss Alps and valleys, the GoldenPass Express isn't just one of the world's most scenic train rides; it's an engineering marvel.</p>
+                    </div>
+                    <div class="text-lg py-2 contain-inline-size">
+                        <p class="border-2 border-black inline-block px-2 py-1 font-mono font-bold hover:bg-neutral-900 hover:text-white  hover:cursor-pointer">See more</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="break-line px-2 md:px-2 lg:px-10 pt-10 pb-3">
+        <hr class="border-b-2 border-black">
+    </div>
+    <!-- ****************************news-section-6********************************** -->
+    <div class="news-container6 px-2 md:px-5 lg:px-10 pt-5">
+        <p class="font-serif font-semibold text-lg pb-5">Innovation <i class="fa-solid fa-angle-right fa-md"></i></p>
+        <div class="flex flex-col-reverse lg:grid lg:grid-col-4 gap-4">
+            <div class="lg:col-start-1 lg:col-span-1 lg:place-content-center">
+                <div class="flex flex-col justify-center gap-4 lg:gap-5">
+                    <div class="lg:pb-5 font-serif">
+                        <p class="font-serif text-2xl font-bold hover:underline hover:cursor-pointer">The secret animal reality show in your back garden</p>
+                    </div>
+                    <div class="font-serif">
+                        <p>An online community has erupted around people filming wildlife with backyard trail cameras. It's not just cute: the videos are uncovering animal secrets for biologists.</p>
+                    </div>
+                    <div class="text-lg py-2 contain-inline-size">
+                        <p class="border-2 border-black inline-block px-2 py-1 font-mono hover:cursor-pointer font-bold hover:bg-neutral-900 hover:text-white">See more</p>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:col-start-2 lg:col-span-3">
+                <img src="/taks-imgs/6th new-sec-img1.webp" alt="6th News Section Image">
+            </div>
+        </div>
+    </div>
+    <!-- ****************************news-section-7********************************** --> 
+    <div class="news-container7 px-2 md:px-5 lg:px-10 pt-10 leading-tight">
+        <div class="grid grid-col-1 md:grid-col-2 lg:grid-cols-4 gap-x-4">
+            <div class="news-container7-col1 md:col-start-1 lg:col-start-1">
+                <div class="flex flex-col gap-4">
+                    <p class="font-serif font-semibold text-lg border-t-2 border-black pt-6">News</p>
+                    <div class="col1-news1-container7 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">One dead in Russian prison hostage-taking</p>
+                        <p class="text-xs py-2 text-gray-500">Just Now | Europe</p>
+                    </div>
+                    <div class="col1-news2-container7 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">Storm Lilian winds disrupt festivals and travel</p>
+                        <p class="text-xs py-2 text-gray-500">6 mins ago | UK</p>
+                    </div>
+                    <div class="col1-news3-container7 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">Tributes paid to Mike Lynch and daughter Hannah after bodies found</p>
+                        <p class="text-xs py-2 text-gray-500">7 mins ago | Europe</p>
+                    </div>
+                    <div class="col1-news4-container7 pb-5">
+                        <div class="grid grid-cols-1 grid-row-3 gap-2">
+                            <div class="flex flex-col gap-2">
+                                <img src="/taks-imgs/7th new-sec-img1.webp" alt="news-sec-img1">
+                                <p class="font-serif text-xl hover:underline hover:cursor-pointer">Bolt acts to halt Nigeria-South Africa 'taxi-war'</p>
+                            </div>
+                            <div class="font-serif">
+                                <p>People were booking and then cancelling rides in the other country as a prank.</p>
+                            </div>
+                            <div class="text-xs border-b-2 py-2 text-gray-500">
+                                <p>2 hrs ago | Africa</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news-container7-col2 md:col-start-2 lg:col-start-2">
+                <div class="flex flex-col gap-4">
+                    <p class="font-serif font-semibold text-lg border-t-2 border-black pt-6">Sport</p>
+                    <div class="col2-news1-container7 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">Sri Lanka slump to 1-2 after England take big first-innings lead</p>
+                        <p class="text-xs py-2 text-gray-500">29 mins ago | Cricket</p>
+                    </div>
+                    <div class="col2-news2-container7 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">Premier League news conferences: Solanke out, Rodri doubt and Gundogan signs for Man City</p>
+                        <p class="text-xs py-2 text-gray-500">3 hrs ago | Football</p>
+                    </div>
+                    <div class="col2-news3-container7 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">Norris fastest in Dutch GP first practice</p>
+                        <p class="text-xs py-2 text-gray-500">1 hrs ago | Formula 1</p>
+                    </div>
+                    <div class="col2-news4-container7 pb-5">
+                        <div class="grid grid-cols-1 grid-row-3 gap-2">
+                            <div class="flex flex-col gap-2">
+                                <img src="/taks-imgs/7th new-sec-img2.webp" alt="news-sec-img1">
+                                <p class="font-serif text-xl hover:underline hover:cursor-pointer">Manchester City re-sign Gundogan from Barcelona</p>
+                            </div>
+                            <div class="font-serif">
+                                <p>Ilkay Gundogan completes Manchester City return after 12 months at Barcelona.</p>
+                            </div>
+                            <div class="text-xs border-b-2 py-2 text-gray-500">
+                                <p>4 hrs ago | Man City</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news-container7-col3 md:col-start-1 lg:col-start-3">
+                <div class="flex flex-col gap-4">
+                    <p class="font-serif font-semibold text-lg border-t-2 border-black pt-6">Buisness</p>
+                    <div class="col3-news1-container7 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">Canada orders freight back on track to end rail stoppage</p>
+                        <p class="text-xs py-2 text-gray-500">12 hrs ago | US & Canada</p>
+                    </div>
+                    <div class="col3-news2-container7 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">Chinese scammers cheated victims from Isle of Man base</p>
+                        <p class="text-xs py-2 text-gray-500">13 hrs ago | Asia</p>
+                    </div>
+                    <div class="col3-news3-container7 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">Bolt acts to halt Nigeria-South Africa 'taxi-war'</p>
+                        <p class="text-xs py-2 text-gray-500">53 mins ago | Africa</p>
+                    </div>
+                    <div class="col3-news4-container7 pb-5">
+                        <div class="grid grid-cols-1 grid-row-3 gap-2">
+                            <div class="flex flex-col gap-2">
+                                <img src="/taks-imgs/7th new-sec-img3.webp" alt="news-sec-img1">
+                                <p class="font-serif text-xl hover:underline hover:cursor-pointer">Shein reveals child labour cases at suppliers</p>
+                            </div>
+                            <div class="font-serif">
+                                <p>The Chinese fast fashion giant has been tightening scrutiny of firms that make the clothes it sells.</p>
+                            </div>
+                            <div class="text-xs border-b-2 py-2 text-gray-500">
+                                <p>9 hrs ago | Buisness</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news-container7-col4 md:col-start-2 lg:col-start-4">
+                <div class="flex flex-col gap-4">
+                    <p class="font-serif font-semibold text-lg border-t-2 border-black pt-6">Innovation</p>
+                    <div class="col4-news1-container7 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">SThe secret animal reality show in your back garden</p>
+                        <p class="text-xs py-2 text-gray-500">4 hrs ago | Future</p>
+                    </div>
+                    <div class="col4-news2-container7 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">Would you eat a meal dreamed up by a computer?</p>
+                        <p class="text-xs py-2 text-gray-500">8 hrs ago | Innovation</p>
+                    </div>
+                    <div class="col4-news3-container7 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">Australian court rules in landmark case that asked 'what is a woman?'</p>
+                        <p class="text-xs py-2 text-gray-500">11 hrs ago | Autralia</p>
+                    </div>
+                    <div class="col4-news4-container7 pb-5">
+                        <div class="grid grid-cols-1 grid-row-3 gap-2">
+                            <div class="flex flex-col gap-2">
+                                <img src="/taks-imgs/7th new-sec-img4.webp" alt="news-sec-img1">
+                                <p class="font-serif text-xl hover:underline hover:cursor-pointer">When vets are scarce what can farmers do?</p>
+                            </div>
+                            <div class="font-serif">
+                                <p>In Vietnam farmers are being encouraged to track the use of antibiotics and monitor disease.</p>
+                            </div>
+                            <div class="text-xs border-b-2 py-2 text-gray-500">
+                                <p>15 hrs ago | Asia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="break-line px-2 md:px-2 lg:px-10 pt-10">
+        <hr class="border-b-2 border-black">
+    </div> 
+    <!-- ****************************news-section-8********************************** -->
+    <div class="news-container6 px-2 md:px-5 lg:px-10 pt-5">
+        <p class="font-serif font-semibold text-lg pb-5">American Football <i class="fa-solid fa-angle-right fa-md"></i></p>
+        <div class="flex flex-col-reverse lg:grid lg:grid-col-4 gap-4">
+            <div class="lg:col-start-1 lg:col-span-1 lg:place-content-center">
+                <div class="flex flex-col justify-center gap-4 lg:gap-5">
+                    <div class="lg:pb-5 font-serif">
+                        <p class="font-serif text-2xl font-bold hover:underline hover:cursor-pointer">NFL team-by-team guide: Who are the Super Bowl contenders?</p>
+                    </div>
+                    <div class="font-serif">
+                        <p>Before the new NFL season, get a snapshot of all 32 teams chasing Super Bowl glory and their players to watch in 2024.</p>
+                    </div>
+                    <div class="text-lg py-2 contain-inline-size">
+                        <p class="border-2 border-black inline-block px-2 py-1 font-mono hover:cursor-pointer font-bold hover:bg-neutral-900 hover:text-white">See more</p>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:col-start-2 lg:col-span-3">
+                <img src="/taks-imgs/8th new-sec-img1.webp" alt="6th News Section Image">
+            </div>
+        </div>
+    </div>
+    <!-- ****************************news-section-9********************************** -->
+    <div class="news-container9 px-2 md:px-5 lg:px-10 pt-10 leading-tight">
+        <div class="grid grid-col-1 md:grid-col-2 lg:grid-cols-4 gap-x-4">
+            <div class="news-container9-col1 md:col-start-1 lg:col-start-1">
+                <div class="flex flex-col gap-4">
+                    <p class="font-serif font-semibold text-lg border-t-2 border-black pt-6">Culture</p>
+                    <div class="col1-news1-container9 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">Why Burning Man could be in trouble</p>
+                        <p class="text-xs py-2 text-gray-500">8 hrs ago | Culture</p>
+                    </div>
+                    <div class="col1-news2-container9 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">Critics are mixed over Sabrina Carpenter's album</p>
+                        <p class="text-xs py-2 text-gray-500">2 hrs ago | Culture</p>
+                    </div>
+                    <div class="col1-news3-container9 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">Jenas 'speaking to lawyers' after BBC sacking</p>
+                        <p class="text-xs py-2 text-gray-500">2 hrs ago | Culture</p>
+                    </div>
+                    <div class="col1-news4-container9 pb-5">
+                        <div class="grid grid-cols-1 grid-row-3 gap-2">
+                            <div class="flex flex-col gap-2">
+                                <img src="/taks-imgs/9th new-sec-img1.webp" alt="news-sec-img1">
+                                <p class="font-serif text-xl hover:underline hover:cursor-pointer">The Star-Spangled Banner's surprising origins</p>
+                            </div>
+                            <div class="font-serif">
+                                <p>It's one of the country's best-loved songs – but the US national anthem, recently performed by The Chicks at the Democratic National Convention, has an unexpectedly colourful past.</p>
+                            </div>
+                            <div class="text-xs border-b-2 py-2 text-gray-500">
+                                <p>6 hrs ago | Culture</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news-container9-col2 md:col-start-2 lg:col-start-2">
+                <div class="flex flex-col gap-4">
+                    <p class="font-serif font-semibold text-lg border-t-2 border-black pt-6">Earth</p>
+                    <div class="col2-news1-container9 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">One of the scariest places on Earth</p>
+                        <p class="text-xs py-2 text-gray-500">3 hrs ago | Travel</p>
+                    </div>
+                    <div class="col2-news2-container9 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">One of the scariest places on Earth</p>
+                        <p class="text-xs py-2 text-gray-500">5 hrs ago | Travel</p>
+                    </div>
+                    <div class="col2-news3-container9 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">The tiny island nation having a big moment</p>
+                        <p class="text-xs py-2 text-gray-500">1 day ago | Travel</p>
+                    </div>
+                    <div class="col2-news4-container9 pb-5">
+                        <div class="grid grid-cols-1 grid-row-3 gap-2">
+                            <div class="flex flex-col gap-2">
+                                <img src="/taks-imgs/9th new-sec-img2.webp" alt="news-sec-img1">
+                                <p class="font-serif text-xl hover:underline hover:cursor-pointer">The world's most extraordinary tiny hotel rooms</p>
+                            </div>
+                            <div class="font-serif">
+                                <p>From upcycled sewer pipes to spheres suspended in the sky, capsule hotels have been reinvented for a new generation of travellers.</p>
+                            </div>
+                            <div class="text-xs border-b-2 py-2 text-gray-500">
+                                <p>1 day ago | Travel</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news-container9-col3 md:col-start-1 lg:col-start-3">
+                <div class="flex flex-col gap-4">
+                    <p class="font-serif font-semibold text-lg border-t-2 border-black pt-6">Travel</p>
+                    <div class="col3-news1-container9 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">Honey, not marmalade, is saving the real 'Paddington Bear'</p>
+                        <p class="text-xs py-2 text-gray-500">9 hrs ago | Future</p>
+                    </div>
+                    <div class="col3-news2-container9 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">Endangered leopard frogs released into the wild</p>
+                        <p class="text-xs py-2 text-gray-500">2 hrs ago | US & Canada</p>
+                    </div>
+                    <div class="col3-news3-container9 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">Scottish island recognised among world's best night skies</p>
+                        <p class="text-xs py-2 text-gray-500">13 hrs ago | Highlands and Islands</p>
+                    </div>
+                    <div class="col3-news4-container9 pb-5">
+                        <div class="grid grid-cols-1 grid-row-3 gap-2">
+                            <div class="flex flex-col gap-2">
+                                <img src="/taks-imgs/9th new-sec-img3.webp" alt="news-sec-img1">
+                                <p class="font-serif text-xl hover:underline hover:cursor-pointer">'Gay animals more common than you would think'</p>
+                            </div>
+                            <div class="font-serif">
+                                <p>West Midlands Safari Park has two gay penguins and a lorikeet "throuple".</p>
+                            </div>
+                            <div class="text-xs border-b-2 py-2 text-gray-500">
+                                <p>14 hrs ago | Hereford & Worcester</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news-container9-col4 md:col-start-2 lg:col-start-4">
+                <div class="flex flex-col gap-4">
+                    <p class="font-serif font-semibold text-lg border-t-2 border-black pt-6">World of Wonder</p>
+                    <div class="col4-news1-container9 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">Protecting Thailand's famous 'paradise beach'</p>
+                        <p class="text-xs py-2 text-gray-500">4 days ago | Natural wonders</p>
+                    </div>
+                    <div class="col4-news2-container9 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">Earth's spectacular and remote 'capital' of lightning</p>
+                        <p class="text-xs py-2 text-gray-500">6 Aug 2024 | World of wonder</p>
+                    </div>
+                    <div class="col4-news3-container9 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">How climate chaos is threatening the real 'Paddington bear'</p>
+                        <p class="text-xs py-2 text-gray-500">21 Jul 2024 | Natural wonders</p>
+                    </div>
+                    <div class="col4-news4-container9 pb-5">
+                        <div class="grid grid-cols-1 grid-row-3 gap-2">
+                            <div class="flex flex-col gap-2">
+                                <img src="/taks-imgs/9th new-sec-img4.webp" alt="news-sec-img1">
+                                <p class="font-serif text-xl hover:underline hover:cursor-pointer">Malaysia's adventure hotspot that crosses seven habitats</p>
+                            </div>
+                            <div class="font-serif">
+                                <p>An 11-mile hike in the Bako National Park in Malaysia transports travellers through seven distinct habitats.</p>
+                            </div>
+                            <div class="text-xs border-b-2 py-2 text-gray-500">
+                                <p>18 Jun 2024 | World of wonder</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="break-line px-2 md:px-2 lg:px-10 pt-10">
+         <hr class="border-b-2 border-black">
+    </div>
+    <!-- ****************************news-section-10********************************** -->
+    <div class="news-container10 px-2 md:px-5 lg:px-10 pb-5">
+        <div class="break-line px-2 md:px-2 lg:px-10 pt-5">
+            <hr class="border-b-2 border-white">
+        </div>
+        <p class="font-serif font-bold text-lg pb-5">Sign up for our newsletters</p>
+        <div class="grid md:grid-col-4 lg:grid-col-4 gap-4">
+            <div class="news1-container4 md:col-start-1 md:col-span-1 lg:col-start-1 lg:col-span-1 pb-5 leading-tight">
+                <div class="grid grid-cols-1 grid-row-3 gap-2">
+                    <div class="flex flex-col gap-2">
+                        <img src="/taks-imgs/4th new-sec-img1.webp" alt="news-sec-img1">
+                        <p class="font-serif font-bold hover:underline hover:cursor-pointer">The Essential List</p>
+                    </div>
+                    <div class="font-serif">
+                        <p>The week's best stories, handpicked by BBC editors, in your inbox every Tuesday and Friday.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="news2-container4 md:col-start-2 md:col-span-1 lg:col-start-2 lg:col-span-1 pb-5 leading-tight">
+                <div class="grid grid-cols-1 grid-row-3 gap-2">
+                    <div class="flex flex-col gap-2">
+                        <img src="/taks-imgs/4th new-sec-img2.webp" alt="news-sec-img1">
+                        <p class="font-serif font-bold hover:underline hover:cursor-pointer">US Election Unspun</p>
+                    </div>
+                    <div class="font-serif">
+                        <p>Cut through the spin with North America correspondent Anthony Zurcher - in your inbox every Wednesday.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="news3-container4 md:col-start-3 md:col-span-1 lg:col-start-3 lg:col-span-1 pb-5 leading-tight">
+                <div class="grid grid-cols-1 grid-row-3 gap-2">
+                    <div class="flex flex-col gap-2">
+                        <img src="/taks-imgs/4th new-sec-img3.webp" alt="news-sec-img1">
+                        <p class="font-serif font-bold hover:underline hover:cursor-pointer">In History</p>
+                    </div>
+                    <div class="font-serif">
+                        <p>Discover the headlines from this week in history. See the past come to life through the BBC's unique archive, in your inbox every Thursday.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+        </div>
+    </div>
+    <!-- ****************************news-section-11********************************** -->
+    <div class="news-container11 px-2 md:px-5 lg:px-10 pt-10 leading-tight">
+        <div class="grid grid-col-1 md:grid-col-2 lg:grid-cols-4 gap-x-4">
+            <div class="news-container11-col1 md:col-start-1 lg:col-start-1">
+                <div class="flex flex-col gap-4">
+                    <p class="font-serif font-semibold text-lg border-t-2 border-black pt-6">Latest on the US election</p>
+                    <div class="col1-news1-container11 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">The Gaza protests at the DNC in 50 seconds</p>
+                        <p class="text-xs py-2 text-gray-500">1 hrs ago | World</p>
+                    </div>
+                    <div class="col1-news2-container11 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">Secret Service agents put on leave over Trump shooting</p>
+                        <p class="text-xs py-2 text-gray-500">2 hrs ago | US & Canada</p>
+                    </div>
+                    <div class="col1-news3-container11 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">RFK Jr considers 'path forward' amid reports he will back Trump</p>
+                        <p class="text-xs py-2 text-gray-500">4 hrs ago | US & Canada</p>
+                    </div>
+                    <div class="col1-news4-container11 pb-5">
+                        <div class="grid grid-cols-1 grid-row-3 gap-2">
+                            <div class="flex flex-col gap-2">
+                                <img src="/taks-imgs/11th new-sec-img4.webp" alt="news-sec-img1">
+                                <p class="font-serif text-xl hover:underline hover:cursor-pointer">The many identities of the first woman vice-president</p>
+                            </div>
+                            <div class="font-serif">
+                                <p>The daughter of an Indian-born mother and Jamaican-born father, Kamala Harris began her career as a prosecutor.</p>
+                            </div>
+                            <div class="text-xs border-b-2 py-2 text-gray-500">
+                                <p>5 hrs ago | US & Canada</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news-container11-col2 md:col-start-2 lg:col-start-2">
+                <div class="flex flex-col gap-4">
+                    <p class="font-serif font-semibold text-lg border-t-2 border-black pt-6">Latest on the Israel-Gaza war</p>
+                    <div class="col2-news1-container11 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">Baby contracts Gaza's first case of polio in 25 years</p>
+                        <p class="text-xs py-2 text-gray-500">3 hrs ago | Middle East</p>
+                    </div>
+                    <div class="col2-news2-container11 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">Democrats reject Gaza protesters' demand to give speaking slot to Palestinian</p>
+                        <p class="text-xs py-2 text-gray-500">17 hrs ago | US & Canada</p>
+                    </div>
+                    <div class="col2-news3-container11 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">Brother of Hamas victim accuses SNP of double standards on Israel</p>
+                        <p class="text-xs py-2 text-gray-500">1 day ago | Glasgow & West Scotland</p>
+                    </div>
+                    <div class="col2-news4-container11 pb-5">
+                        <div class="grid grid-cols-1 grid-row-3 gap-2">
+                            <div class="flex flex-col gap-2">
+                                <img src="/taks-imgs/11th new-sec-img2.webp" alt="news-sec-img1">
+                                <p class="font-serif text-xl hover:underline hover:cursor-pointer">Biden tells Netanyahu Gaza ceasefire deal is urgent</p>
+                            </div>
+                            <div class="font-serif">
+                                <p>The US president stresses to Israel's PM the importance of removing “any remaining obstacles”.</p>
+                            </div>
+                            <div class="text-xs border-b-2 py-2 text-gray-500">
+                                <p>1 day ago | World</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news-container11-col3 md:col-start-1 lg:col-start-3">
+                <div class="flex flex-col gap-4">
+                    <p class="font-serif font-semibold text-lg border-t-2 border-black pt-6">Latest on the Ukraine war</p>
+                    <div class="col3-news1-container11 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">India ready to help find peace, Modi tells Ukraine</p>
+                        <p class="text-xs py-2 text-gray-500">3 hrs ago | Europe</p>
+                    </div>
+                    <div class="col3-news2-container11 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">Guernsey friends to drive ambulances to Ukraine</p>
+                        <p class="text-xs py-2 text-gray-500">8 hrs ago | Guernsey</p>
+                    </div>
+                    <div class="col3-news3-container11 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">'They've just gone way above and beyond'</p>
+                        <p class="text-xs py-2 text-gray-500">9 hrs ago | Norfolk</p>
+                    </div>
+                    <div class="col3-news4-container11 pb-5">
+                        <div class="grid grid-cols-1 grid-row-3 gap-2">
+                            <div class="flex flex-col gap-2">
+                                <img src="/taks-imgs/11th new-sec-img3.webp" alt="news-sec-img1">
+                                <p class="font-serif text-xl hover:underline hover:cursor-pointer">Actor Jeremy Irons secures home for refugees</p>
+                            </div>
+                            <div class="font-serif">
+                                <p>The 75-year-old actor renovated the "eyesore" cottage and is now helping secure it for refugees.</p>
+                            </div>
+                            <div class="text-xs border-b-2 py-2 text-gray-500">
+                                <p>14 hrs ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news-container11-col4 md:col-start-2 lg:col-start-4">
+                <div class="flex flex-col gap-4">
+                    <p class="font-serif font-semibold text-lg border-t-2 border-black pt-6">BBC InDepth</p>
+                    <div class="col4-news1-container11 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">Riots show how the UK's far right has changed</p>
+                        <p class="text-xs py-2 text-gray-500">3 days ago | BBC InDepth</p>
+                    </div>
+                    <div class="col4-news2-container11 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">Power, oil and a $450m painting - insiders on the rise of Saudi's Crown Prince</p>
+                        <p class="text-xs py-2 text-gray-500">5 days ago | BBC InDepth</p>
+                    </div>
+                    <div class="col4-news3-container11 border-b-2 py-1 pb-2">
+                        <p class="font-serif text-xl hover:underline hover:cursor-pointer">Why does the Church of England struggle to deal with child abuse allegations?</p>
+                        <p class="text-xs py-2 text-gray-500">15 Aug 2024 | BBC InDepth</p>
+                    </div>
+                    <div class="col4-news4-container11 pb-5">
+                        <div class="grid grid-cols-1 grid-row-3 gap-2">
+                            <div class="flex flex-col gap-2">
+                                <img src="/taks-imgs/11th new-sec-img1.webp" alt="news-sec-img1">
+                                <p class="font-serif text-xl hover:underline hover:cursor-pointer">Starmer will be judged on how he tackles root causes of riots</p>
+                            </div>
+                            <div class="font-serif">
+                                <p>Tackling the root causes of unrest - even deciding what they are - is set to be a crucial test for the new government.</p>
+                            </div>
+                            <div class="text-xs border-b-2 py-2 text-gray-500">
+                                <p>11 Aug 2024 | BBC InDepth</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ****************************Footer********************************* -->
+    <div class="break-line md:px-2 lg:px-10 pt-10 pb-3">
+        <hr class="border-b-2 border-black">
+    </div> 
+    <div class="footer flex flex-col gap-4 px-2 md:px-2 lg:px-10 pb-10">
+        <div class="footer-logo-container">
+            <ul class="flex justify-start items-center font-bold">
+              <li class="mr-1 px-2 text-2xl bg-black text-white">B</li>
+              <li class="mr-1 px-2 text-2xl bg-black text-white">B</li>
+              <li class="mr-1 px-2 text-2xl bg-black text-white">C</li>
+            </ul>
+        </div>
+        <div class="footer-navbar-container">
+            <ul class="flex flex-col md:flex-row lg:flex-row justify-start text-sm font-semibold">
+              <li class="md:mr-2 lg:mr-2 py-2 hover:underline hover:cursor-pointer">Home</li>
+              <li class="md:mr-2 lg:mr-2 py-2 hover:underline hover:cursor-pointer">News</li>
+              <li class="md:mr-2 lg:mr-2 py-2 hover:underline hover:cursor-pointer">Sports</li>
+              <li class="md:mr-2 lg:mr-2 py-2 hover:underline hover:cursor-pointer">Buisness</li>
+              <li class="md:mr-2 lg:mr-2 py-2 hover:underline hover:cursor-pointer">Innovation</li>
+              <li class="md:mr-2 lg:mr-2 py-2 hover:underline hover:cursor-pointer">Culture</li>
+              <li class="md:mr-2 lg:mr-2 py-2 hover:underline hover:cursor-pointer">Travel</li>
+              <li class="md:mr-2 lg:mr-2 py-2 hover:underline hover:cursor-pointer">Earth</li>
+              <li class="md:mr-2 lg:mr-2 py-2 hover:underline hover:cursor-pointer">Video</li>
+              <li class="md:mr-2 lg:mr-2 py-2 hover:underline hover:cursor-pointer">Live</li>
+            </ul>
+        </div> 
+        <div class="footer-btn border-b-2 pb-3">
+            <div class="inline-flex items-center gap-4 bg-gray-300 hover:bg-gray-400 hover:cursor-pointer px-2 py-1">
+                <p class="inline-block">BBC in other Languages</p>
+                <i class="fa-solid fa-angle-down fa-xs"></i>
+            </div>
+        </div>        
+        <div class="footer-contact-icons flex flex-col md:flex-row lg:flex-row justify-start gap-6 md:gap-10 lg-gap-10">
+            <p class="font-bold">Follow on BBC :</p>
+            <div class="flex gap-7">
+                <i class="fa-brands fa-x-twitter p-1 hover:underline hover:cursor-pointer"></i>
+                <i class="fa-brands fa-facebook-f p-1 hover:underline hover:cursor-pointer"></i>
+                <i class="fa-brands fa-square-instagram p-1 hover:underline hover:cursor-pointer"></i>
+                <i class="fa-brands fa-tiktok p-1 hover:underline hover:cursor-pointer"></i>
+                <i class="fa-brands fa-linkedin-in p-1 hover:underline hover:cursor-pointer"></i>
+                <i class="fa-brands fa-youtube p-1 hover:underline hover:cursor-pointer"></i>
+            </div>
+        </div>
+        <div class="footer-info-navbar-container">
+            <ul class="flex justify-start text-xs flex-wrap">
+              <li class="mr-2 py-2 hover:underline hover:cursor-pointer">Terms of use</li>
+              <li class="mr-2 lg:mx-2 py-2 hover:underline hover:cursor-pointer">About the BBC</li>
+              <li class="mr-2 lg:mx-2 py-2 hover:underline hover:cursor-pointer">Privacy Policy</li>
+              <li class="mr-2 lg:mx-2 py-2 hover:underline hover:cursor-pointer">Cookies</li>
+              <li class="mr-2 lg:mx-2 py-2 hover:underline hover:cursor-pointer">Accessibility Help</li>
+              <li class="mr-2 lg:mx-2 py-2 hover:underline hover:cursor-pointer">Contact the BBC</li>
+              <li class="mr-2 lg:mx-2 py-2 hover:underline hover:cursor-pointer">Advertise with us</li>
+              <li class="mr-2 lg:mx-2 py-2 hover:underline hover:cursor-pointer">Do not share or sell my info</li>
+              <li class="mr-2 lg:mx-2 py-2 hover:underline hover:cursor-pointer">Contact technical support</li>
+            </ul>
+        </div>
+        <div class="footer-copyright-para text-xs">
+            <p>Copyright 2024 BBC. All rights reserved.  The BBC is not responsible for the content of external sites.<b class="hover:cursor-pointer"> Read about our approach to external linking.</b></p>
+        </div> 
+     </div>
+  </body>
+</html>
